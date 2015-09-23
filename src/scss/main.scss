@@ -66,9 +66,31 @@ aside {
 aside #scroll-on-page-top{
     text-align: left;
   }
+  a{
+    font-size: 220%;
+    text-decoration: none;
+  }
+  a:link {
+  color: #5D9732;
+}
+
+/* visited link */
+a:visited {
+  color: #5D9732;
+}
+
+/* mouse over link */
+a:hover {
+  color: #5D9732;
+}
+
+/* selected link */
+a:active {
+  color: #5D9732;
+}
 a.scroll-on-page-link{
     color: #5D9732;
-    font-size: 200%;
+    font-size: 220%;
     text-decoration: none;
   }
   .scroll-on-page-link {
@@ -85,8 +107,26 @@ article {
   }
   h4{
     color: #5D9732;
-    font-size: 145%;
     font-weight: 100;
+  }
+    #scroll-link-1{
+      font-size: 220%
+    }
+    #scroll-link-2{
+      font-size: 220%
+    }
+    #scroll-link-3{
+      font-size: 220%
+    }
+  img{
+    width: 50%;
+  }
+  p{
+    font-size: 140%;
+  }
+  i{
+    color: #005695;
+    margin-right: 5%;
   }
   }
 }
