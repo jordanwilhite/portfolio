@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  background-color: #000000;
+  overflow-x: hidden;
+  margin: 0; }
+
+header.centered-navigation {
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  min-height: 60px;
+  width: 100%;
+  z-index: 9999; }
+
+div.centered-navigation-wrapper {
+  font-family: "Raleway";
+  font-size: 400%; }
+
+h1 {
+  text-align: center;
+  font-weight: 200;
+  margin: 0;
+  border-left: 1px solid black; }
+
+h3 {
+  text-align: center;
+  font-weight: 100;
+  margin: 0; }
+
+div.scroll-on-page {
+  margin: 3%;
+  font-family: "Raleway";
+  font-size: 120%;
+  font-weight: 100;
+  color: #F7F7F7;
+  text-align: justify; }
+
+.scroll-on-page {
+  /* visited link */
+  /* mouse over link */
+  /* selected link */ }
+  @media screen and (min-width: 53.75em) {
+    .scroll-on-page aside {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .scroll-on-page aside:last-child {
+        margin-right: 0; } }
+  .scroll-on-page aside #scroll-on-page-top {
+    text-align: left; }
+  .scroll-on-page a {
+    font-size: 220%;
+    text-decoration: none; }
+  .scroll-on-page a:link {
+    color: #5D9732; }
+  .scroll-on-page a:visited {
+    color: #5D9732; }
+  .scroll-on-page a:hover {
+    color: #5D9732; }
+  .scroll-on-page a:active {
+    color: #5D9732; }
+  .scroll-on-page a.scroll-on-page-link {
+    color: #5D9732;
+    font-size: 220%;
+    text-decoration: none; }
+  .scroll-on-page .scroll-on-page-link {
+    display: block;
+    outline: none; }
+  @media screen and (min-width: 53.75em) {
+    .scroll-on-page article {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .scroll-on-page article:last-child {
+        margin-right: 0; } }
+  .scroll-on-page article h4 {
+    color: #5D9732;
+    font-weight: 100; }
+  .scroll-on-page article #scroll-link-1 {
+    font-size: 200%;
+    margin: 0; }
+  .scroll-on-page article #scroll-link-2 {
+    font-size: 200%;
+    margin: 0; }
+  .scroll-on-page article #scroll-link-3 {
+    font-size: 200%;
+    margin: 0; }
+  .scroll-on-page article p {
+    color: #fff; }
+  .scroll-on-page article div.image-gradient-dynamic {
+    line-height: 0;
+    position: relative;
+    width: 100%;
+    margin-left: 25%; }
+    .scroll-on-page article div.image-gradient-dynamic img {
+      height: auto;
+      left: 0;
+      position: relative;
+      top: 0;
+      width: 50%; }
+    .scroll-on-page article div.image-gradient-dynamic .copy {
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      left: 50%;
+      margin: auto;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      z-index: 999; }
+      .scroll-on-page article div.image-gradient-dynamic .copy p {
+        color: white;
+        line-height: 1.5em;
+        padding: 1em 2em;
+        position: relative; }
+    .scroll-on-page article div.image-gradient-dynamic .overlay {
+      background-color: rgba(255, 0, 0, 0.1);
+      background-image: -webkit-linear-gradient(-270deg, rgba(255, 0, 0, 0.1), rgba(0, 128, 0, 0.4));
+      background-image: linear-gradient(0deg,rgba(255, 0, 0, 0.1), rgba(0, 128, 0, 0.4), , , , , , , , );
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 50%; }
+      .scroll-on-page article div.image-gradient-dynamic .overlay:after {
+        background-color: rgba(0, 128, 128, 0.2);
+        background-image: -webkit-linear-gradient(-360deg, rgba(0, 128, 128, 0.2), rgba(255, 255, 0, 0.2));
+        background-image: linear-gradient(90deg,rgba(0, 128, 128, 0.2), rgba(255, 255, 0, 0.2), , , , , , , , );
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        content: '';
+        display: block; }
+  .scroll-on-page article a.project {
+    color: #ba0be0; }
+  .scroll-on-page p {
+    font-size: 140%;
+    font-family: "Raleway";
+    margin: 0;
+    margin-bottom: 5%; }
+  .scroll-on-page i {
+    color: #005695;
+    margin-right: 5%; }
