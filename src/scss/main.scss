@@ -3,6 +3,7 @@
 
 body{
  background-color: #000000;
+ overflow-x: hidden;
  margin: 0;
 }
 // Header //
@@ -110,13 +111,16 @@ article {
     font-weight: 100;
   }
     #scroll-link-1{
-      font-size: 200%
+      font-size: 200%;
+      margin: 0;
     }
     #scroll-link-2{
-      font-size: 200%
+      font-size: 200%;
+      margin: 0;
     }
     #scroll-link-3{
-      font-size: 200%
+      font-size: 200%;
+      margin: 0;
     }
     p{
       color: #fff;
@@ -138,13 +142,14 @@ article {
       line-height: 0;
       position: relative;
       width: 100%;
+      margin-left: 25%;
 
       img {
        height: auto;
        left: 0;
        position: relative;
        top: 0;
-       width: 100%;
+       width: 50%;
       }
 
       .copy {
@@ -169,6 +174,8 @@ article {
           transparentize($image-gradient-color-bottom, $transparency-bottom));
         display: block;
         @include position(absolute, 0px 0px 0px 0px);
+        width: 50%;
+
 
         &:after {
           @include linear-gradient($horizontal-angle, transparentize($image-gradient-color-left, $transparency-left),
@@ -181,17 +188,16 @@ article {
     }
 
     // images //
-    section #code{
-      color: #ba0be0;
-    }
       a.project{
         color: #ba0be0;
       }
   }
 
   p{
-    font-size: 110%;
+    font-size: 140%;
     font-family:"Raleway";
+    margin: 0;
+    margin-bottom: 5%;
   }
   i{
     color: #005695;
